@@ -1,6 +1,6 @@
-# addressBook
+# Places Visited
 
-##### Epicodus Section:  JavaScript OO - Address Book
+##### Epicodus Section:  JavaScript OO - Places Visited
 
 #### By Jon and Timmi
 
@@ -10,7 +10,7 @@ This application is a demonstration of constructors and prototypes using JavaScr
 
 ## Setup
 
-Install addressBook by cloning this repository.
+Install places that we've visited by cloning this repository.
 
 ## Technologies Used
 
