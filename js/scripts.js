@@ -11,7 +11,7 @@ Places.prototype.fullName = function () {
 };
 
 Places.prototype.dearDiary = function () {
-  return this.year + " Dear Diary, Today in " + this.city + ", " + this.notes;
+  return this.year + "Dear Diary, Today in " + this.city + ", " + this.notes;
 };
 
 
@@ -27,8 +27,7 @@ $(function() {
     var newPlace = new Places(inputCity, inputCountry, inputLandmark, inputYear, inputNotes);
 
     $("ul#places").append("<li><span class='place'>" + newPlace.fullName() + "</span></li>");
-    $("p#diaryEntry").text(newPlace.dearDiary());
-    $(".dearDiary").show();
+    $("#dearDiary").text(newPlace.dearDiary());
 
     $("input#newCity").val("");
     $("input#newCountry").val("");
